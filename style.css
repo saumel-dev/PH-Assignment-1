@@ -301,6 +301,7 @@ nav a {
     border-radius: 4px;
     font-weight: 700;
     gap: 5px;
+    cursor: pointer;
 }
 
 .ea-content-secondary p {
