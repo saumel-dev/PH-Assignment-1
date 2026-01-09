@@ -10,8 +10,8 @@
 }
 
 .common-container {
-    max-width: 1600px;
-    margin: auto;
+    max-width: 1400px;
+    margin: 0 auto;
     /* background-color: 1px solid red; */
 }
 
@@ -70,10 +70,13 @@ nav a {
     justify-content: center;
     background-color: white;
     border-radius: 1000px;
-    padding: 8px 12px 8px 34px;
+    padding: 8px 12px 8px 12px;
     margin-top: 115px;
     font-size: 16px;
-    font-weight: 500;
+    display: flex;
+}
+.banner .banner-title1 img{
+    padding-right: 5px;
 }
 
 #g {
@@ -94,7 +97,6 @@ nav a {
     color: white;
     line-height: 24px;
     font-size: 18px;
-    max-width: 680px;
     text-align: center;
 }
 
@@ -102,24 +104,25 @@ nav a {
     gap: 20px;
     display: flex;
 }
-
+.banner .btn #b1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .banner .btn #b1 {
     border: none;
-    padding: 17px 46px 17px 16px;
+    padding: 17px 15px 17px 16px;
     color: white;
     background-color: #30B868;
     margin-top: 32px;
     font-size: 16px;
     border-radius: 4px;
-    font-weight: 500;
     cursor: pointer;
 }
 
 .banner .btn #b2 {
     border-radius: 4px;
     font-size: 16px;
-    width: 198px;
-    height: 52px;
     padding: 16px 16px 16px 46px;
     margin-top: 32px;
     background: transparent;
@@ -128,7 +131,10 @@ nav a {
     font-weight: 500;
     cursor: pointer;
 }
-
+.btn #b1 img{
+    align-items: center;
+    justify-content: center;
+}
 /* banner style end here*/
 
 /* note style */
@@ -156,10 +162,10 @@ nav a {
 /* card style */
 .card-box {
     display: flex;
-    justify-content: space-between;
-    gap: 24px;
+    align-items: stretch;
     justify-content: center;
-    padding: 44px 120px 0px;
+    gap: 24px;
+    padding: 44px 0px;
 }
 
 .card-container {
@@ -203,11 +209,39 @@ nav a {
 /* sb style */
 .sb-container{
     display: flex;
-    margin: 0 auto;
+    padding-top: 120px;
 }
-.sb-img img{
-    width: 600px;
-    height: 600px;
-    padding-left: 66px;
+.sb-info{
+    padding: 100px 0 100px 60px;
 }
+.sb-info li{
+    list-style: none;
+}
+.sb-info h5{
+    font-size: 16px;
+    color: #30B868;
+    line-height: 20px;
+}
+.sb-info h1{
+    padding-top: 16px;
+    font-size: 48px;
+    color: #001931;
+}
+.sb-info p{
+    padding-top: 16px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+}
+.sb-info .sb-li{
+    padding-top: 20px;
+}
+.sb-li li p{
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+}
+
+
 
