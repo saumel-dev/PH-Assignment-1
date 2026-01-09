@@ -26,7 +26,7 @@ nav {
     padding-top: 16px;
 }
 
-.nav-li {
+.nav-li ul{
     display: flex;
     gap: 32px;
     list-style: none;
@@ -45,7 +45,6 @@ nav a {
     color: white;
     background-color: #30B868;
     border-radius: 4px;
-    margin-left: 120px;
     cursor: pointer;
 }
 
@@ -65,26 +64,26 @@ nav a {
     padding-top: 16px;
 }
 
-.banner .banner-title1 {
+.banner-title1 {
     color: #30B868;
     justify-content: center;
     background-color: white;
     border-radius: 1000px;
-    padding: 8px 12px 8px 12px;
+    padding: 8px 12px;
     margin-top: 115px;
     font-size: 16px;
     display: flex;
 }
-.banner .banner-title1 img{
+.banner-title1 img{
     padding-right: 5px;
 }
 
-#g {
+#text-highlight {
     color: #30B868;
     display: block;
 }
 
-.banner .banner-title2 h1 {
+.banner-title2 h1 {
     font-size: 70px;
     line-height: 84px;
     max-width: 800px;
@@ -93,23 +92,21 @@ nav a {
     color: white;
 }
 
-.banner .banner-title3 {
+.banner-title3 {
     color: white;
     line-height: 24px;
     font-size: 18px;
     text-align: center;
 }
 
-.banner .btn {
+.btn {
     gap: 20px;
     display: flex;
 }
-.banner .btn #b1{
+.btn #btn1{
     display: flex;
     align-items: center;
     gap: 10px;
-}
-.banner .btn #b1 {
     border: none;
     padding: 17px 15px 17px 16px;
     color: white;
@@ -119,25 +116,18 @@ nav a {
     border-radius: 4px;
     cursor: pointer;
 }
-.banner .btn #b2{
+.btn #btn2{
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.banner .btn #b2 {
     border-radius: 4px;
     font-size: 16px;
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
     margin-top: 32px;
     background: transparent;
     color: white;
     border: 1px solid white;
     cursor: pointer;
-}
-.btn #b1 img{
-    align-items: center;
-    justify-content: center;
 }
 /* banner style end here*/
 
@@ -248,6 +238,87 @@ nav a {
     font-weight: 500;
     color: #001931;
 }
+/* Early Access Section */
+.ea-container{
+    max-width: 1400px;
+    padding-top: 120px;
+    margin-bottom: 80px;
+}
+.ea-container .ea-sec{
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 383px;
+    justify-content: center;
+}
+.ea-content h1{
+    padding: 80px 40px 16px;
+    font-size: 40px;
+}
+.ea-content p{
+    color: #627382;
+    line-height: 24px;
+    text-align: center;
+}
+.ea-content-secondary{
+    padding-top: 24px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.ea-content-secondary button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 16px 24px;
+    border: none;
+    background-color: #30B868;
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    gap: 5px;
+}
+.ea-content-secondary p{
+    padding-top: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+/* Early Access Section end*/
 
-
-
+/* Footer Section */
+.footer-section{
+    background-color: rgb(56, 54, 54);
+    width: 100%;
+    min-height: 350px;
+}
+.footer-banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.footer-social-link p{
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.social-icons a img{
+    padding-top: 10px;
+}
+.footer-line{
+    border: none;
+    border-top: 1px solid gray;
+    margin-top: 80px;
+}
+.fotter-bottom p{
+    color: white;
+    padding-top: 30px;
+     text-align: center;
+}
