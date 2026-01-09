@@ -119,16 +119,20 @@ nav a {
     border-radius: 4px;
     cursor: pointer;
 }
+.banner .btn #b2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 .banner .btn #b2 {
     border-radius: 4px;
     font-size: 16px;
-    padding: 16px 16px 16px 46px;
+    padding: 16px 16px 16px 16px;
     margin-top: 32px;
     background: transparent;
     color: white;
     border: 1px solid white;
-    font-weight: 500;
     cursor: pointer;
 }
 .btn #b1 img{
@@ -237,6 +241,8 @@ nav a {
     padding-top: 20px;
 }
 .sb-li li p{
+    display: flex;
+    gap: 5px;
     line-height: 20px;
     font-size: 16px;
     font-weight: 500;
