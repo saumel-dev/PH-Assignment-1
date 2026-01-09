@@ -152,7 +152,9 @@ nav a {
 
 .note-title p {
     padding-top: 16px;
-    color: #627382;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 18px;
 }
 
 /* note style end here*/
@@ -180,12 +182,13 @@ nav a {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
-    /* padding: 100px 25px 2px; */
+    padding-top: 15px;
 }
 
 .card-container p {
     padding-top: 16px;
     text-align: center;
+    color: #627382;
 }
 
 .card-icon {
@@ -313,7 +316,8 @@ nav a {
 
 /* Footer Section */
 .footer-section {
-    background-color: rgb(56, 54, 54);
+    /* background-color: rgb(8, 15, 46); */
+    background-color: #001931;
     width: 100%;
     min-height: 350px;
 }
@@ -325,7 +329,7 @@ nav a {
 }
 
 .footer-social-link p {
-    color: white;
+    color: #FAFAFA;
     font-size: 20px;
     line-height: 28px;
 }
